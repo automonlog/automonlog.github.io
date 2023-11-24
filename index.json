@@ -1,202 +1,202 @@
 [
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-operations/dashboards/",
+	"uri": "https://automonlog.github.io/aria-operations/dashboards/",
 	"title": "",
 	"tags": [],
 	"description": "",
 	"content": "Dashboards:\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/about/",
+	"uri": "https://automonlog.github.io/about/",
 	"title": "About",
 	"tags": [],
 	"description": "",
 	"content": "\nTitle: Unlocking the Potential\nTopics: VMware Aria Suite and more\u0026hellip;\nIntroduction:\nWelcome to our Blog site! We\u0026rsquo;re excited to have you here as part of the vCommunity. This platform was born out of a passion for sharing knowledge and expertise regarding the VMware Aria Suite of Products. We recognize that our customers often have burning questions and inquiries about these powerful solutions. Our mission is to provide clear and insightful answers to these queries, benefiting not only the inquisitive individuals who ask but also the broader community who might have similar concerns.\nWhy We Exist:\nCustomers\u0026rsquo; questions are the driving force behind this initiative. When someone reaches out with a question, we see it as an opportunity to facilitate a collective learning experience. If one customer has a question, there\u0026rsquo;s a good chance others do too. By openly sharing our insights and solutions, we aim to create a valuable resource that enhances your understanding of VMware\u0026rsquo;s Aria Suite.\nOur Approach:\nAt the heart of our commitment lies a dedication to leveraging VMware\u0026rsquo;s official documentation as our primary source of information. Whenever possible, we will direct you to official resources because we believe in the accuracy and reliability they offer. However, we also recognize that real-world scenarios often demand practical, hands-on guidance. That\u0026rsquo;s where we come in.\nWhat You\u0026rsquo;ll Discover Here: When you explore our blog, you\u0026rsquo;ll encounter a wealth of resources designed to empower your journey with VMware\u0026rsquo;s Aria Suite:\nScreen Shots: Visual aids can be immensely helpful in understanding complex concepts. We provide detailed screen captures to guide you through various processes and configurations.\nCode Examples: Many challenges in the technical world require a bit of coding finesse. We offer code snippets and examples to simplify intricate tasks and customization.\nTips and Tricks: Our seasoned experts share their insights, revealing the tips and tricks that can make your VMware Aria experience more efficient and enjoyable.\n\u0026ldquo;Real World\u0026rdquo; Examples: We believe in the power of real-world use cases. Our blog will feature practical examples and case studies, showcasing how VMware\u0026rsquo;s Aria Suite can address common challenges faced by businesses and organizations.\nThank you for visiting\nStay tuned for our upcoming blog posts, and feel free to reach out with any questions or topics you\u0026rsquo;d like us to cover. Your feedback and participation are highly appreciated.\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/",
+	"uri": "https://automonlog.github.io/",
 	"title": "About this site",
 	"tags": [],
 	"description": "",
 	"content": "Your Resource to learn about Automation, Monitoring, Logging, more\u0026hellip; Monitoring:\nAutomation:\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation/assembler/action-constant-and-secrets/",
+	"uri": "https://automonlog.github.io/aria-automation/assembler/action-constant-and-secrets/",
 	"title": "Action Constants and Secrets",
 	"tags": [],
 	"description": "",
 	"content": "VMware Aria Automation | Action Constants and Secrets: VMware Aria Automation 8.14 was used for this Blog Post. When new versions of VMware Aria Automation are released, the code may need to be changed.\nAll the source code for this Blog is saved in my GitHub Repository. Click on the links within the blog to access the code.\nI wanted to share how I use Action Constants and Secrets within VMware Aria Automation. Action Constants are a great to have a variable that can be used with many Actions where the value may change. Instead of having to edit 10s or 100s of Actions, you change One Action Constant and all the Actions are updated instantly. Main reason to use Secrets is to keep the values of Passwords out of the code! Plus, like Action Constants, if a Password would change, all you need to do is change one Secret and all your Actions and Templates are automatically Updated. Secrets can also be used in the yaml code of Templates.\nAction Constants Action Constants Use Cases:\nvCenter Username vCenter FQDN VMware Aria Automation Config Username VMware Aria Automation Config FQDN salt master FQDN Any value used in Actions that may change from time to time To access Action Constants: Assembler/Extensibility/Actions/Actions Constants\nYou will see the Action Constants Names and Values. How to use Action Constants and Secrets with an Action:\nAdd the Action Constants and Secrets used within the Action in the Default inputs section. To use a Action Constant value within the Action PowerShell code use $inputs.\u0026ldquo;Action Constant\u0026rdquo; To use a Secret value within the Action PowerShell code use $context.getSecret($inputs.\u0026ldquo;Secret Name\u0026rdquo;) In the example code, review how I am connecting to the vCenter. No hard coded Username, Password or vCenter FQDN. If any of these values would change, I would never need to edit the Action, only the Action Constants and Secret. Link to code | GitHub Repository Secrets Secrets Use Cases:\nPasswords Any value you don\u0026rsquo;t want displayed in plain text within your code To access Secrets: Assembler/Infrastructure/Secrets/Secrets\nYou will see the Secret Names and Description only. You can never see the Secret value after you create it. If you think the value is not correct you need to re-enter the value. How to use Secrets with an Template:\nAdd code to the template yaml that is like this: password: \u0026lsquo;${secret.UbuntuPassword}\u0026rsquo; See Screen Shot Links to resources about Actions Constants and Secrets: Secret Automation Assembler properties How can I create extensibility action constants Article Information: Created By: Dale Hassinger TAGs: #AriaAutomation, #ActionConstants, #Secrets "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation/",
+	"uri": "https://automonlog.github.io/aria-automation/",
 	"title": "Aria Automation",
 	"tags": [],
 	"description": "",
 	"content": "Aria Automation: "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-operations/",
+	"uri": "https://automonlog.github.io/aria-operations/",
 	"title": "Aria Operations",
 	"tags": [],
 	"description": "",
 	"content": "Aria Operations: "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation/assembler/",
+	"uri": "https://automonlog.github.io/aria-automation/assembler/",
 	"title": "Assembler",
 	"tags": [],
 	"description": "",
 	"content": "Assembler: "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation/service-broker/custom-form-versioning/",
+	"uri": "https://automonlog.github.io/aria-automation/service-broker/custom-form-versioning/",
 	"title": "Custom Form Versioning",
 	"tags": [],
 	"description": "",
 	"content": "Custom Form Versioning Demo: VMware Aria Automation 8.12 Released: With the release of VMware Aria Automation 8.12, Custom Form Versioning was added to the Product. I use a lot Custom Forms with the Automation that I create, so I wanted to make sure I understood how the versioning feature worked. If you never did versioning before, this Blog Post should save you some time getting started and help you understand how the new features was designed to work.\nHow to Video: Here is a video that shows you the process to use Custom Form Version Control. There are several steps involved with versioning, so I thought a video would be the best way to show you how the new feature works.\nHow to start with previous custom form This screen shot is a very important step to start with previous version of Custom Form. Use \u0026ldquo;New Form From\u0026rdquo; and select previous version. You will then have all the custom changes you made in previous version as a starting point for new version.\nLessons Learned: When you release a new Template version to the Catalog, make sure to use the \u0026ldquo;New Form From\u0026rdquo; to start with all previous changes. Custom Form Versioning makes it very easy to role back changes. Overall, nice new feature added to VMware Aria Automation 8.12. Links I found to be very helpful: VMware Blog: VMware Aria Automation April (8.12.0) – Custom Forms Version History Article Information: Created By: Dale Hassinger TAGs: #AriaOperations, #CustomFormVersioning, #YouTubeVideo "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-operations/metric-searching/",
+	"uri": "https://automonlog.github.io/aria-operations/metric-searching/",
 	"title": "Metric-Searching",
 	"tags": [],
 	"description": "",
 	"content": "Metric Searching:\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/powercli/",
+	"uri": "https://automonlog.github.io/powercli/",
 	"title": "PowerCLI",
 	"tags": [],
 	"description": "",
 	"content": "PowerCLI Scripts:\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/resource-links/",
+	"uri": "https://automonlog.github.io/resource-links/",
 	"title": "Resource Links",
 	"tags": [],
 	"description": "",
 	"content": "Links to some of my favorite Bloggers and Content:\nvCROCS | GitHub Repository: vCROCS | GitHub Repository Salt | Formulas Repository Bloggers | Youtube: Brock Peterson - VMware Aria Operations Master Christopher Kusek - The Forgotten Manual Tech Cosmin Trif - VMware Aria Suite Master LucD - PowerShell Master William Lam - VMware Master Yellow Bricks Don Horrox Corey Blaz VMware: VMware Operations Management Book - Great Book! code.VMware.com - Samples/Resources Learn vRealize Automation Learn SaltStack Config blogs.VMware.com PowerShell PowerCLI VMware PowerCLI Cmdlets by Product vRealize Automation vRealize Operations vRealize Log Insight ports.VMware.com - Good Link when you live in a Zero trust environment Podcasts: The PowerShell Podcast Virtually Speaking Podcast Mac Power Users - MPU The Hacks - Powered By SaltStack VMware Communities Roundtable IT Reality Podcast "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation/service-broker/",
+	"uri": "https://automonlog.github.io/aria-automation/service-broker/",
 	"title": "Service Broker",
 	"tags": [],
 	"description": "",
 	"content": "Service Broker: "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/vcommunity/",
+	"uri": "https://automonlog.github.io/vcommunity/",
 	"title": "vCommunity",
 	"tags": [],
 	"description": "",
 	"content": "vCommunity:\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-operations-for-logs/alerts/",
+	"uri": "https://automonlog.github.io/aria-operations-for-logs/alerts/",
 	"title": "Alerts",
 	"tags": [],
 	"description": "",
 	"content": "VMware Aria Operations for Logs | Alerts:\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-operations-for-logs/",
+	"uri": "https://automonlog.github.io/aria-operations-for-logs/",
 	"title": "Aria Operations for Logs",
 	"tags": [],
 	"description": "",
 	"content": "VMware Aria Operations for Logs:\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation-config/",
+	"uri": "https://automonlog.github.io/aria-automation-config/",
 	"title": "Aria Automation Config",
 	"tags": [],
 	"description": "",
 	"content": "Aria Automation Config:\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation/orchestrator/",
+	"uri": "https://automonlog.github.io/aria-automation/orchestrator/",
 	"title": "Orchestrator",
 	"tags": [],
 	"description": "",
 	"content": "Orchestrator: "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation-config/states/",
+	"uri": "https://automonlog.github.io/aria-automation-config/states/",
 	"title": "States",
 	"tags": [],
 	"description": "",
 	"content": "States:\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation-config/targets/",
+	"uri": "https://automonlog.github.io/aria-automation-config/targets/",
 	"title": "Targets",
 	"tags": [],
 	"description": "",
 	"content": "Targets:\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation/assembler/templates/",
+	"uri": "https://automonlog.github.io/aria-automation/assembler/templates/",
 	"title": "Templates",
 	"tags": [],
 	"description": "",
 	"content": "Templates: "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation/assembler/templates/windows-server-with-saltstack-resource/",
+	"uri": "https://automonlog.github.io/aria-automation/assembler/templates/windows-server-with-saltstack-resource/",
 	"title": "Windows Server with SaltStack resource",
 	"tags": [],
 	"description": "",
 	"content": "Windows Server with SaltStack resource: Here is the template yaml code to create a Windows Server and use the SaltStack Resource.\nformatVersion: 1 inputs: CustomizationSpec: type: string description: Customization Specification default: CustomSpec-W2k19 title: CustomizationSpec VMName: type: string title: VM Name minLength: 1 maxLength: 15 default: WIN-19-000 IP: type: string default: 192.168.0.200 EDrive: type: integer title: E-Drive default: 0 description: Enter 0 to disable the disk and not create LDrive: type: integer title: L-Drive default: 0 description: Enter 0 to disable the disk and not create TDrive: type: integer title: T-Drive default: 0 description: Enter 0 to disable the disk and not create Size: type: string title: Size description: Selecting SQL will format all DATA drives with 64k allocation. default: vCenter-Medium-1-2 enum: - vCenter-Small-1-1 - vCenter-Medium-1-2 - vCenter-Large-1-4 - vCenter-X-Large-1-8 SQL: type: string title: SQL description: Selecting SQL will format all DATA drives with 64k allocation. default: \u0026#39;False\u0026#39; enum: - \u0026#39;True\u0026#39; - \u0026#39;False\u0026#39; resources: Network: type: Cloud.Network properties: networkType: existing constraints: - tag: Network:PROD-VMs Virtual_Machine: type: Cloud.Machine properties: image: vCenter-W2K19 flavor: ${input.Size} customizationSpec: ${input.CustomizationSpec} name: ${input.VMName} remoteAccess: authentication: usernamePassword username: administrator password: VMware1! networks: - network: ${resource.Network.id} assignment: static address: ${input.IP} attachedDisks: ${map_to_object(resource.Cloud_Volume_E[*].id + resource.Cloud_Volume_L[*].id + resource.Cloud_Volume_T[*].id , \u0026#34;source\u0026#34;)} edrivesize: ${input.EDrive} ldrivesize: ${input.LDrive} sql: ${input.SQL} # - VMware Max SCSI Controllers is 4 # - VMware Max Unit per SCSI Controllers is 15 Cloud_Volume_E: type: Cloud.Volume properties: capacityGb: ${input.EDrive} count: \u0026#39;${input.EDrive == 0 ? 0 : 1 }\u0026#39; SCSIController: SCSI_Controller_1 unitNumber: 0 provisioningType: thin Cloud_Volume_L: type: Cloud.Volume properties: capacityGb: ${input.LDrive} count: \u0026#39;${input.LDrive == 0 ? 0 : 1 }\u0026#39; SCSIController: SCSI_Controller_1 unitNumber: 1 provisioningType: thin Cloud_Volume_T: type: Cloud.Volume properties: capacityGb: ${input.TDrive} count: \u0026#39;${input.TDrive == 0 ? 0 : 1 }\u0026#39; SCSIController: SCSI_Controller_1 unitNumber: 2 provisioningType: thin Cloud_SaltStack_1: type: Cloud.SaltStack properties: hosts: - ${resource.Virtual_Machine.id} masterId: saltstack_enterprise_installer stateFiles: #[] - /states/windows-server-new-drives.sls saltEnvironment: base additionalMinionParams: grains: vCROCS_Roles: - webserver - database vCROCS_Drive_E_Size: - ${input.EDrive} vCROCS_Drive_L_Size: - ${input.LDrive} vCROCS_Drive_T_Size: - ${input.TDrive} vCROCS_SQL: - ${input.SQL} Article Information: Created By: Dale Hassinger TAGs: #AriaAutomation, #Template, #SaltStackResource, #WindowsServer "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-automation-config/states/windows-service/",
+	"uri": "https://automonlog.github.io/aria-automation-config/states/windows-service/",
 	"title": "Windows Service",
 	"tags": [],
 	"description": "",
 	"content": "Windows Service:\n# State file for Windows Services # This state can be changed to work with any Windows Service # Change the name to match the service name you want to use # Example on how to run state.apply from cli # salt \u0026#34;WIN-19-001\u0026#34; state.apply states.spooler # Stop a Windows Service stop_service: service.dead: - name: spooler # Start a Windows Service and Startup will be Automatic Start_service: service.running: - enable: True - name: spooler # Disable a Windows Service disable_service: service.disabled: - name: spooler Article Information: Created By: Dale Hassinger TAGs: #AriaAutomationConfig, #State, #WindowsService, #WindowsServer "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/vcommunity/vmware-community-podcast/",
+	"uri": "https://automonlog.github.io/vcommunity/vmware-community-podcast/",
 	"title": "VMware CMTY Podcast",
 	"tags": [],
 	"description": "",
 	"content": "Podcasts:\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-operations/reports/",
+	"uri": "https://automonlog.github.io/aria-operations/reports/",
 	"title": "Reports",
 	"tags": [],
 	"description": "",
 	"content": "Reports: "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/aria-operations/views/",
+	"uri": "https://automonlog.github.io/aria-operations/views/",
 	"title": "Views",
 	"tags": [],
 	"description": "",
 	"content": "Views: "
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/categories/",
+	"uri": "https://automonlog.github.io/categories/",
 	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/_footer/",
+	"uri": "https://automonlog.github.io/_footer/",
 	"title": "Footer",
 	"tags": [],
 	"description": "",
 	"content": "Created By: Dale Hassinger and Brock Peterson\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/_header/",
+	"uri": "https://automonlog.github.io/_header/",
 	"title": "Header",
 	"tags": [],
 	"description": "",
 	"content": " Automation | Monitoring | Logging\n"
 },
 {
-	"uri": "https://dalehassinger.github.io/vcommunity/tags/",
+	"uri": "https://automonlog.github.io/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
