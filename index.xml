@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About this site on </title>
+    <link>https://dalehassinger.github.io/vcommunity/</link>
+    <description>Recent content in About this site on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dalehassinger.github.io/vcommunity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Footer</title>
+      <link>https://dalehassinger.github.io/vcommunity/_footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dalehassinger.github.io/vcommunity/_footer/</guid>
+      <description>Created By: Dale Hassinger and Brock Peterson</description>
+    </item>
+    <item>
+      <title>Header</title>
+      <link>https://dalehassinger.github.io/vcommunity/_header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dalehassinger.github.io/vcommunity/_header/</guid>
+      <description>Automation | Monitoring | Logging</description>
+    </item>
+  </channel>
+</rss>
